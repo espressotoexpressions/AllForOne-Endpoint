@@ -23,4 +23,5 @@ Guess It
 Restaurant Picker
 
 
-//Peer Reviewed by:
+//Peer Reviewed by: Hassan Sajid
+- Everything is looking and working as it should. There are a few things that can be fixed though. In your greater than and less than, it should display the number in the sentence rather than first or second number since that would be simpler for people to understand. For MadLib, I would suggest naming the parameters something other than noun1 or adj2 to something like userName, sandwichType since it is more specfic and gives the user a clear answer on what they can put for the inputs. But like I said everything works and looks as it is supposed to. Good job!
