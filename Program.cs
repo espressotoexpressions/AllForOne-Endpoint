@@ -20,6 +20,17 @@ builder.Services.AddScoped<ReverseNumServices>();
 builder.Services.AddScoped<WakeUpNameService>();
 builder.Services.AddScoped<SayHelloService>();
 
+builder.Services.AddCors(options=> {
+    options.AddPolicy("AllowAll",
+    policy=>{
+        // who can knock at our door and what can they bring in
+        policy.AllowAnyOrigin() // allows requests from any origin
+            .AllowAnyMethod() // allows http requests  (GET,POST,PUT , DELETE) 
+            .AllowAnyMethod();  //allows any header
+    });
+
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -30,6 +41,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 
