@@ -18,6 +18,7 @@ builder.Services.AddScoped<RestaurantPickerServices>();
 builder.Services.AddScoped<ReverseItServices>();
 builder.Services.AddScoped<ReverseNumServices>();
 builder.Services.AddScoped<WakeUpNameService>();
+builder.Services.AddScoped<SayHelloService>();
 
 var app = builder.Build();
 

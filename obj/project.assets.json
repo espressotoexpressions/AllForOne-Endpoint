@@ -428,19 +428,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/hassan/.nuget/packages/": {}
+    "/Users/karen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hassan/Downloads/AllForOne-Endpoint/AllForOne-Endpoint.csproj",
+      "projectUniqueName": "/Users/karen/Desktop/Codestack/Level2/Week2/AllForOne-Endpoint/AllForOne-Endpoint.csproj",
       "projectName": "AllForOne-Endpoint",
-      "projectPath": "/Users/hassan/Downloads/AllForOne-Endpoint/AllForOne-Endpoint.csproj",
-      "packagesPath": "/Users/hassan/.nuget/packages/",
-      "outputPath": "/Users/hassan/Downloads/AllForOne-Endpoint/obj/",
+      "projectPath": "/Users/karen/Desktop/Codestack/Level2/Week2/AllForOne-Endpoint/AllForOne-Endpoint.csproj",
+      "packagesPath": "/Users/karen/.nuget/packages/",
+      "outputPath": "/Users/karen/Desktop/Codestack/Level2/Week2/AllForOne-Endpoint/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/hassan/.nuget/NuGet/NuGet.Config"
+        "/Users/karen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

@@ -8,7 +8,7 @@ namespace AllForOne_Endpoint.Services
 {
     public class GuessItServices
     {
-        public string feedback = "";
+        
 
         public string GuessIt(string guess, int mode)
         {

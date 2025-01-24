@@ -24,7 +24,7 @@ namespace AllForOne_Endpoint.Services
                     numInput = numInput / 10;// removes the last digit of the numInput 
 
                 }
-                return $"You entered {num}.Reversed is {numReverse}.";
+                return numReverse.ToString();
 
             }
 
