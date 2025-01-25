@@ -17,9 +17,9 @@ namespace AllForOne_Endpoint.Services
 
         public string AddTwoNumbers(int num1, int num2)
         {
+            
             sum = num1+num2;
-            string sumStr="The sum of "+ num1+" and " +num2+ " is " +sum+".";
-            return sumStr;
+            return sum.ToString();
         }
     }
 }

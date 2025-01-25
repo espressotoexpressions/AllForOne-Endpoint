@@ -8,7 +8,7 @@ using AllForOne_Endpoint.Services;
 namespace AllForOne_Endpoint.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class GreaterThanLessThanController : ControllerBase
     {
         private readonly GreaterThanLessThanService _greaterThanLessThanService;
