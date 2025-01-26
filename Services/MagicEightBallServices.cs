@@ -36,7 +36,7 @@ namespace AllForOne_Endpoint.Services
             Random rng = new Random();
             int randomNum = rng.Next(answerList.Count);
 
-            return "Your Question: " +question+ ". 8 ball answer is: " + answerList[randomNum]; 
+            return "8 ball answer to your question is: " + answerList[randomNum]+"."; 
         }
         }
 }
