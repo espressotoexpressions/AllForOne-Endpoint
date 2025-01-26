@@ -48,9 +48,8 @@ namespace AllForOne_Endpoint.Services
                         }else if (randomCategoryIndex==1){
                         return restaurantItalian[randomRestaurantIndex];
                         }else if (randomCategoryIndex==2)
-                        {
-                            
-                    return  restaurantFilipino[randomRestaurantIndex];
+                        { 
+                        return  restaurantFilipino[randomRestaurantIndex];
                         }else
                         return "Error picking a random restaurant";
           
