@@ -24,35 +24,33 @@ namespace AllForOne_Endpoint.Services
         {
             Random rng = new Random();
             int randomRestaurantIndex = rng.Next(10);
-           
-
-
+        
          
             switch (restaurantCategory.ToLower())
             {
                 case "chinese":
 
-                    return "Restaurant Name: " + restaurantChinese[randomRestaurantIndex];
+                    return  restaurantChinese[randomRestaurantIndex];
 
                 case "italian":
-                    return "Restaurant Name:" + restaurantItalian[randomRestaurantIndex];
+                    return restaurantItalian[randomRestaurantIndex];
 
 
                 case "filipino":
 
-                    return "Restaurant Name: " + restaurantFilipino[randomRestaurantIndex];
+                    return   restaurantFilipino[randomRestaurantIndex];
 
                 case "any":
 
                      int randomCategoryIndex = rng.Next(3);
                         if (randomCategoryIndex==0){
-                        return "Restaurant Name: " + restaurantChinese[randomRestaurantIndex];
+                        return restaurantChinese[randomRestaurantIndex];
                         }else if (randomCategoryIndex==1){
-                              return "Restaurant Name:" + restaurantItalian[randomRestaurantIndex];
+                        return restaurantItalian[randomRestaurantIndex];
                         }else if (randomCategoryIndex==2)
                         {
                             
-                    return "Restaurant Name: " + restaurantFilipino[randomRestaurantIndex];
+                    return  restaurantFilipino[randomRestaurantIndex];
                         }else
                         return "Error picking a random restaurant";
           
