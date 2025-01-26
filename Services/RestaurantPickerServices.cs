@@ -45,11 +45,11 @@ namespace AllForOne_Endpoint.Services
                 case "any":
 
                      int randomCategoryIndex = rng.Next(3);
-                        if (randomCategoryIndex==1){
+                        if (randomCategoryIndex==0){
                         return "Restaurant Name: " + restaurantChinese[randomRestaurantIndex];
-                        }else if (randomCategoryIndex==2){
+                        }else if (randomCategoryIndex==1){
                               return "Restaurant Name:" + restaurantItalian[randomRestaurantIndex];
-                        }else if (randomCategoryIndex==3)
+                        }else if (randomCategoryIndex==2)
                         {
                             
                     return "Restaurant Name: " + restaurantFilipino[randomRestaurantIndex];
